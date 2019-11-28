@@ -1,0 +1,31 @@
+div {
+width: 180px; 
+height:180px;
+border-radius: 9px;
+background: #f8e34b;
+position: absolute;
+}
+div:after {
+content: "";
+width: 90px; 
+height: 50%;
+position: absolute; 
+left: calc(67% - 30px); 
+top: calc(66% - 29px);
+background:  #0c0c0c;
+border-radius: 0 0 9px 0;
+}
+div:before {
+content: "";
+width: 90px; 
+height: 50%;
+position: absolute; 
+right: calc(68% - 32px); 
+top: calc(66% - 29px);
+background: #eeedef;
+border-radius: 0 0 0 9px;
+background: linear-gradient(178deg, #C8C8C8 0px , transparent 7px), #EEEDEF;
+}
+
+
+
