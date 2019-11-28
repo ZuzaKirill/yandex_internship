@@ -1,3 +1,4 @@
+/** @returns Boolean */  
 function Fnc(nums, k) {
 
   for(let i = 0; i < nums.length; i++) {
